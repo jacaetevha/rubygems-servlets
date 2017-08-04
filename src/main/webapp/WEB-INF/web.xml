@@ -12,11 +12,11 @@
   </context-param>
   <context-param>
     <param-name>gem-hosted-storage</param-name>
-    <param-value>/tmp/rubygems/hosted</param-value>
+    <param-value>/tmp/rubygems-hosted</param-value>
   </context-param>
   <context-param>
     <param-name>gem-caching-proxy-storage</param-name>
-    <param-value>/tmp/rubygems/caching</param-value>
+    <param-value>/tmp/rubygems-caching</param-value>
   </context-param>
   <context-param>
     <param-name>gem-caching-proxy-url</param-name>
@@ -24,7 +24,7 @@
   </context-param>
   <context-param>
     <param-name>gem-proxy-storage</param-name>
-    <param-value>/tmp/rubygems/proxy</param-value>
+    <param-value>/tmp/rubygems-proxy</param-value>
   </context-param>
   <context-param>
     <param-name>gem-proxy-url</param-name>
